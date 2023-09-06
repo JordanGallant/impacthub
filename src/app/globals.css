@@ -170,8 +170,10 @@ li,a,button{
   justify-content: center;
   align-items: center;
   gap: 20px;
-  float: left;
   width: 100%;
+  margin-left: 70%;
+  list-style-type: none;
+
 }
 .logo{
   margin-left: 10px;
@@ -179,7 +181,22 @@ li,a,button{
 .cta{
   margin-right: 10px;
 }
-  
+.linkies:hover{
+color: #946AFE;
+}
+
+.con-but{
+padding: 10px;
+background-color: #946AFE;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.con-but:hover{
+  color: black;
+
+}
 
 
 @font-face {
