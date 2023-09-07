@@ -52,7 +52,7 @@ export default function Home() {
           <div className="left">
             <h1>Impact hub</h1>
             <h2>
-              Connect. Build <br />
+              Connect. Build. <br />
               Regenerate the Future. <br />
               <br />
             </h2>
@@ -62,9 +62,23 @@ export default function Home() {
             <Image src="/neon_9.png" width={350} height={350} alt="Picture" />
           </div>
         </div>
-        <div className="join"></div>
+            
+        <div className="join">
+          <h3>Join Us</h3>
+          <p className="join-p">
+            Partnering with universities, NGOs,and businesses <br />
+            <br/>
+            to tackle some of our most pressing challenges <br />
+            <br/>
+            and build a more sustainable future for South Africa
+          </p>
+          <div className="buttons-div">
+            <button className="join-but">Login</button>
+            <button className="join-but">Register</button>
+          </div>
+        </div>
         <div className="projects">
-          <h2>Projects</h2>
+          <h3>Projects</h3>
           <div className="wave">
             <svg
               data-name="Layer 1"
@@ -79,6 +93,13 @@ export default function Home() {
             </svg>
           </div>
         </div>
+        <div className=" partners">
+              <h3>Partners</h3>
+              <hr/>
+              <div className="logos-div"> 
+              
+              </div>
+            </div>
       </div>
     </>
   );
