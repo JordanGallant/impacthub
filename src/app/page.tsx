@@ -62,14 +62,14 @@ export default function Home() {
             <Image src="/neon_9.png" width={350} height={350} alt="Picture" />
           </div>
         </div>
-            
+
         <div className="join">
           <h3>Join Us</h3>
           <p className="join-p">
             Partnering with universities, NGOs,and businesses <br />
-            <br/>
+            <br />
             to tackle some of our most pressing challenges <br />
-            <br/>
+            <br />
             and build a more sustainable future for South Africa
           </p>
           <div className="buttons-div">
@@ -79,6 +79,46 @@ export default function Home() {
         </div>
         <div className="projects">
           <h3>Projects</h3>
+          
+          <div className="projects-div">
+            <div className="project">
+              <h4> title </h4>
+              <p>sponsored by</p>
+              <Image
+                src="/plastic-river.jpeg"
+                width={250}
+                height={250}
+                alt="Picture"
+              />
+              <button className="join-but">View Project</button>
+            </div>
+          </div>
+          <div className="projects-div">
+            <div className="project">
+              <h4> title </h4>
+              <p>sponsored by</p>
+              <Image
+                src="/plastic-river.jpeg"
+                width={250}
+                height={250}
+                alt="Picture"
+              />
+              <button className="join-but">View Project</button>
+            </div>
+          </div>
+          <div className="projects-div">
+            <div className="project">
+              <h4> title </h4>
+              <p>sponsored by</p>
+              <Image
+                src="/plastic-river.jpeg"
+                width={250}
+                height={250}
+                alt="Picture"
+              />
+              <button className="join-but">View Project</button>
+            </div>
+          </div>
           <div className="wave">
             <svg
               data-name="Layer 1"
@@ -94,16 +134,26 @@ export default function Home() {
           </div>
         </div>
         <div className=" partners">
-              <h3>Partners</h3>
-              <hr/>
-              <div className="logos-div"> 
-              <Image src="/UCT.png" width={150} height={150} alt="Picture" />
-              <Image src="/SU.png" width={150} height={150} alt="Picture" />
-              <Image src="/Launch-Labs.png" width={150} height={150} alt="Picture" />
-              <Image src="/SI.jpeg" width={150} height={150} alt="Picture" />
-              
-              </div>
-            </div>
+          <h3>Partners</h3>
+          <hr />
+          <div className="logos-div">
+            <Image
+              src="/UCT.png"
+              className=" logo-left"
+              width={150}
+              height={150}
+              alt="Picture"
+            />
+            <Image src="/SU.png" width={150} height={150} alt="Picture" />
+            <Image
+              src="/Launch-Labs.png"
+              width={150}
+              height={150}
+              alt="Picture"
+            />
+            <Image src="/SI.jpeg" width={150} height={150} alt="Picture" />
+          </div>
+        </div>
       </div>
     </>
   );
