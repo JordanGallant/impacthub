@@ -90,7 +90,7 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but">View Project</button>
+              <button className="join-but-rev">View Project</button>
             </div>
           </div>
           <div className="projects-div">
@@ -103,7 +103,7 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but">View Project</button>
+              <button className="join-but-rev">View Project</button>
             </div>
           </div>
           <div className="projects-div">
@@ -116,9 +116,10 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but">View Project</button>
+              <button className="join-but-rev">View Project</button>
             </div>
           </div>
+          
           <div className="wave">
             <svg
               data-name="Layer 1"
@@ -133,9 +134,14 @@ export default function Home() {
             </svg>
           </div>
         </div>
+        <div className="stats">
+            <h3>
+              Stats
+            </h3>
+          </div>
         <div className=" partners">
           <h3>Partners</h3>
-          <hr />
+           
           <div className="logos-div">
             <Image
               src="/UCT.png"
