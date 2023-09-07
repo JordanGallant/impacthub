@@ -97,6 +97,10 @@ export default function Home() {
               <h3>Partners</h3>
               <hr/>
               <div className="logos-div"> 
+              <Image src="/UCT.png" width={150} height={150} alt="Picture" />
+              <Image src="/SU.png" width={150} height={150} alt="Picture" />
+              <Image src="/Launch-Labs.png" width={150} height={150} alt="Picture" />
+              <Image src="/SI.jpeg" width={150} height={150} alt="Picture" />
               
               </div>
             </div>

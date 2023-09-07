@@ -254,21 +254,26 @@ h3{
 .partners{
   min-height: 30vh;
   width: 100%;
-  background-color: #5361F6;
+  background-color: white;
   text-align: center;
   gap: 16px;
+  color: black;
 }
 
 .logos-div{
   width: 100%;
-  background-color: green;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  
   
 }
 
 hr{
   height:5px;
-  background-color: white;
+  background-color: black;
   border: none;
+  margin-bottom: 30px;
 }
 
 .projects{
