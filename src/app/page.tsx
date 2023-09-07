@@ -78,11 +78,11 @@ export default function Home() {
           </div>
         </div>
         <div className="projects">
-          <h3>Projects</h3>
-          
+          <h3 >Projects</h3>
+
           <div className="projects-div">
             <div className="project">
-              <h4> title </h4>
+              <h3 className="proj-head"> title </h3>
               <p>sponsored by</p>
               <Image
                 src="/plastic-river.jpeg"
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
           <div className="projects-div">
             <div className="project">
-              <h4> title </h4>
+              <h3 className="proj-head"> title </h3>
               <p>sponsored by</p>
               <Image
                 src="/plastic-river.jpeg"
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
           <div className="projects-div">
             <div className="project">
-              <h4> title </h4>
+              <h3 className="proj-head"> title </h3>
               <p>sponsored by</p>
               <Image
                 src="/plastic-river.jpeg"
