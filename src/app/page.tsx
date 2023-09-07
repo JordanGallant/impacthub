@@ -14,6 +14,12 @@ const Navbar = () => {
       ></Image>
       <nav>
         <ul className="nav-links">
+        <li>
+            <Link className="linkies" href="/pages/stats">
+              {" "}
+              Dashboard
+            </Link>
+          </li>
           <li>
             <Link className="linkies" href="/pages/login">
               {" "}
@@ -90,7 +96,7 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev">View Project</button>
+              <button className="join-but-rev"><Link href ="/project/plastic">View Project</Link></button>
             </div>
           </div>
           <div className="projects-div">
@@ -103,7 +109,7 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev">View Project</button>
+              <button className="join-but-rev"><Link href ="/project/plastic">View Project</Link></button>
             </div>
           </div>
           <div className="projects-div">
@@ -116,7 +122,7 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev">View Project</button>
+              <button className="join-but-rev" ><Link href ="/project/plastic">View Project</Link></button>
             </div>
           </div>
           
@@ -138,6 +144,23 @@ export default function Home() {
             <h3>
               Stats
             </h3>
+            <div className="stats-contain">
+              <div className="stats-content">
+                <div className="stat-object">
+                <h4>Projects</h4>
+                 <h4>3</h4>
+                 </div>
+                 <div className="stat-object">
+                <h4>Contributors</h4>
+                 <h4>133</h4>
+                 </div>
+                 <div className="stat-object">
+                <h4>Funding</h4>
+                 <h4>R15,000</h4>
+                 </div>
+              </div>
+
+            </div>
           </div>
         <div className=" partners">
           <h3>Partners</h3>
