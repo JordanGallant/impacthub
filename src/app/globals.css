@@ -146,29 +146,29 @@ h1 {
   align-items: center;
 }
 
-nav{
+nav {
   width: 100%;
   height: 4.5rem;
   background-color: white;
   color: black;
   display: flex;
   justify-content: space-between;
-  
-  
 }
-li,a,button{
-  font-family: "Unbounded",sans-serif;
+li,
+a,
+button {
+  font-family: "Unbounded", sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-decoration: none;
 }
-.navbar{
+.navbar {
   display: flex;
   background-color: white;
-  
+
   align-items: center;
 }
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,31 +176,29 @@ li,a,button{
   width: 100%;
   margin-left: 60%;
   list-style-type: none;
-
 }
-.logo{
+.logo {
   margin-left: 10px;
 }
-.cta{
+.cta {
   margin-right: 10px;
 }
-.linkies:hover{
-color: #946AFE;
+.linkies:hover {
+  color: #946afe;
 }
 
-.con-but{
-padding: 10px;
-background-color: #946AFE;
-border: none;
-border-radius: 15px;
-cursor: pointer;
+.con-but {
+  padding: 10px;
+  background-color: #946afe;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.con-but:hover{
+.con-but:hover {
   color: black;
-
 }
-.join-but{
+.join-but {
   padding: 10px;
   border: none;
   border-radius: 15px;
@@ -209,7 +207,6 @@ cursor: pointer;
   border: 2px solid black;
   background-color: white;
   cursor: pointer;
-
 }
 
 .wave {
@@ -232,8 +229,7 @@ cursor: pointer;
   fill: #b497ff;
 }
 
-
-.join{
+.join {
   display: flex;
   width: 100%;
   height: 50vh;
@@ -245,13 +241,12 @@ cursor: pointer;
   text-align: center;
   gap: 20px;
   color: black;
- 
 }
 
-h3{
+h3 {
   font-size: 50px;
 }
-.partners{
+.partners {
   min-height: 34vh;
   width: 100%;
   background-color: white;
@@ -260,43 +255,38 @@ h3{
   color: black;
 }
 
-.logos-div{
+.logos-div {
   width: 100%;
   display: flex;
   background-color: white;
   justify-content: space-between;
-  
-  
 }
 
-hr{
-  height:5px;
+hr {
+  height: 5px;
   background-color: black;
   border: none;
   margin-bottom: 30px;
 }
 
-.projects{
+.projects {
   display: flex;
   min-height: 60vh;
   width: 100%;
   background-color: black;
   color: white;
-  
-  
 }
 
-.proj-head{
+.proj-head {
   font-size: 32px;
 }
-.projects-div{
+.projects-div {
   width: 33%;
   height: 50vh;
   margin-top: 8vh;
   margin-right: 120px;
-
 }
-.project{
+.project {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -307,7 +297,7 @@ hr{
   color: white;
 }
 
-.join-but-rev{
+.join-but-rev {
   padding: 10px;
   border: none;
   border-radius: 15px;
@@ -316,56 +306,72 @@ hr{
   border: 2px solid white;
   background-color: black;
   cursor: pointer;
-
 }
-.buttons-div{
+.buttons-div {
   display: flex;
   gap: 10px;
   margin-top: 10px;
 }
 
-.logo-left{
+.logo-left {
   margin-left: 20px;
 }
-.stats{
-  
+.stats {
   background-color: #b497ff;
   width: 100%;
   height: 40vh;
   text-align: center;
   color: black;
-  
-  
 }
 
-.stats-contain{
+.stats-contain {
   margin-top: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.stats-content{
+.stats-content {
   padding: 10px;
   width: 50%;
   height: 150px;
   border-radius: 15px;
   display: flex;
   background-color: white;
-  border:solid 2px black;
-  
+  border: solid 2px black;
 }
-.stat-object{
+.stat-object {
   display: flex;
   flex-direction: column;
   width: 33%;
   height: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
+.map {
+  width: 50%;
+  height: 100%;
+}
+.stat-div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.stats-data {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 61vh;
+  
+  text-align: center;
+  color: black;
+}
 
+.stat-title {
+  font-size: 50px;
+}
 
 @font-face {
   font-family: "Unbounded";
