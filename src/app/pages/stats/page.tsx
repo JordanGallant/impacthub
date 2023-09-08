@@ -11,7 +11,7 @@ function Stats() {
     { country: "za", value: 2 }, 
     { country: "jo", value: 1 },//South Africa
   ];
-
+//22
   return (
     <>
       <div className="stat-div">
