@@ -269,6 +269,7 @@ button {
 
 h3 {
   font-size: 50px;
+  font-family: "Unbounded", sans-serif;
 }
 .partners {
   min-height: 34vh;
@@ -405,13 +406,57 @@ margin-top: 75px;
   font-size: 50px;
 }
 
-.problem{
+.problem2{
   width: 100%;
-  height: 50vh;
+  display: flex;
+  
   border-top: solid 1px white;
  
   
 }
+.p-left{
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+
+}
+.p-right{
+width: 50%;
+border-left: 1px solid white;
+}
+.list-1{
+display: flex;
+width: 25%;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+align-items: center;
+border-right: solid 1px white;
+
+
+
+}
+.li-but{
+  width: 20px;
+  height: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  min-width: 100px;
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.list2{
+width: 75%;
+display: flex;
+flex-direction: column;
+}
+
 
 @font-face {
   font-family: "Unbounded";
