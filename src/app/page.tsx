@@ -162,6 +162,15 @@ export default function Home() {
 
             </div>
           </div>
+          <div className="meet-the-team">
+            <h3>Meet The Team</h3>
+            <div className="images-div">
+            <Image src="/SU.png" width={150} height={150} alt="Picture" />
+            <Image src="/SU.png" width={150} height={150} alt="Picture" />
+            <Image src="/SU.png" width={150} height={150} alt="Picture" />
+            </div>
+
+          </div>
         <div className=" partners">
           <h3>Partners</h3>
            
