@@ -179,6 +179,7 @@ button {
 }
 .logo {
   margin-left: 10px;
+  cursor: pointer;
 }
 .cta {
   margin-right: 10px;
@@ -211,7 +212,7 @@ button {
 
 .wave {
   position: absolute;
-  bottom: -72px;
+  bottom: -102px;
   left: 0;
   width: 100%;
   overflow: hidden;
