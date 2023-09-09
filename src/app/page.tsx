@@ -175,6 +175,8 @@ export default function Home() {
             <div className="person">
               <Image src="/Eneo.jpeg" width={250} height={250} alt="Picture" />
               <h4>Eneo</h4>
+              <br/>
+              <p>Head Growth - Addicted to Outreach</p>
             </div>
 
             <div className="person">
