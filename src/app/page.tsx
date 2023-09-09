@@ -103,10 +103,10 @@ export default function Home() {
           </div>
           <div className="projects-div">
             <div className="project">
-              <h3 className="proj-head"> title </h3>
-              <p>sponsored by</p>
+              <h3 className="proj-head"> End-hunger </h3>
+              <p>sponsored by Woolworths</p>
               <Image
-                src="/plastic-river.jpeg"
+                src="/hunger.jpeg"
                 width={250}
                 height={250}
                 alt="Picture"
@@ -118,10 +118,10 @@ export default function Home() {
           </div>
           <div className="projects-div">
             <div className="project">
-              <h3 className="proj-head"> title </h3>
-              <p>sponsored by</p>
+              <h3 className="proj-head"> Stop-fish </h3>
+              <p>sponsored by Clicks</p>
               <Image
-                src="/plastic-river.jpeg"
+                src="/overphish.jpeg"
                 width={250}
                 height={250}
                 alt="Picture"
