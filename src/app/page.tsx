@@ -14,7 +14,7 @@ const Navbar = () => {
       ></Image>
       <nav>
         <ul className="nav-links">
-        <li>
+          <li>
             <Link className="linkies" href="/pages/stats">
               {" "}
               Dashboard
@@ -84,19 +84,21 @@ export default function Home() {
           </div>
         </div>
         <div className="projects">
-          <h3 >Projects</h3>
+          <h3>Projects</h3>
 
           <div className="projects-div">
             <div className="project">
-              <h3 className="proj-head"> title </h3>
-              <p>sponsored by</p>
+              <h3 className="proj-head"> Replastic </h3>
+              <p>STREET PLASTIC MICROECONOMY</p>
               <Image
-                src="/plastic-river.jpeg"
+                src="/replastic.jpeg"
                 width={250}
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev"><Link href ="/project/plastic">View Project</Link></button>
+              <button className="join-but-rev">
+                <Link href="/project/plastic">View Project</Link>
+              </button>
             </div>
           </div>
           <div className="projects-div">
@@ -109,7 +111,9 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev"><Link href ="/project/plastic">View Project</Link></button>
+              <button className="join-but-rev">
+                <Link href="/project/plastic">View Project</Link>
+              </button>
             </div>
           </div>
           <div className="projects-div">
@@ -122,10 +126,12 @@ export default function Home() {
                 height={250}
                 alt="Picture"
               />
-              <button className="join-but-rev" ><Link href ="/project/plastic">View Project</Link></button>
+              <button className="join-but-rev">
+                <Link href="/project/plastic">View Project</Link>
+              </button>
             </div>
           </div>
-          
+
           <div className="wave">
             <svg
               data-name="Layer 1"
@@ -141,39 +147,47 @@ export default function Home() {
           </div>
         </div>
         <div className="stats">
-            <h3>
-              Stats
-            </h3>
-            <div className="stats-contain">
-              <div className="stats-content">
-                <div className="stat-object">
+          <h3>Stats</h3>
+          <div className="stats-contain">
+            <div className="stats-content">
+              <div className="stat-object">
                 <h4>Projects</h4>
-                 <h4>3</h4>
-                 </div>
-                 <div className="stat-object">
-                <h4>Contributors</h4>
-                 <h4>133</h4>
-                 </div>
-                 <div className="stat-object">
-                <h4>Funding</h4>
-                 <h4>R15,000</h4>
-                 </div>
+                <h4>3</h4>
               </div>
-
+              <div className="stat-object">
+                <h4>Contributors</h4>
+                <h4>133</h4>
+              </div>
+              <div className="stat-object">
+                <h4>Funding</h4>
+                <h4>R15,000</h4>
+              </div>
             </div>
           </div>
-          <div className="meet-the-team">
-            <h3>Meet The Team</h3>
-            <div className="images-div">
-            <Image src="/SU.png" width={150} height={150} alt="Picture" />
-            <Image src="/SU.png" width={150} height={150} alt="Picture" />
-            <Image src="/SU.png" width={150} height={150} alt="Picture" />
+        </div>
+        <div className="meet-the-team">
+          <h3>Meet The Team</h3>
+          <div className="images-div">
+            <div className="person">
+              <Image src="/diego.jpeg" width={250} height={250} alt="Picture" />
+              <h4>Diego</h4>
+            </div>
+            <div className="person">
+              <Image src="/Eneo.jpeg" width={250} height={250} alt="Picture" />
+              <h4>Eneo</h4>
             </div>
 
+            <div className="person">
+              <Image src="/Jordan.jpeg" width={250} height={250} alt="Picture" />
+              <h4>Jordan</h4>
+              <br/>
+              <p> I am an incident Response Engineer with a passion for using technology to solve issues</p>
+            </div>
           </div>
+        </div>
         <div className=" partners">
           <h3>Partners</h3>
-           
+
           <div className="logos-div">
             <Image
               src="/UCT.png"

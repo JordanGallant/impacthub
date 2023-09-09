@@ -227,17 +227,26 @@ button {
 }
 .meet-the-team{
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  
 }
 .images-div{
   display: flex;
   justify-content: space-between;
-  background-color: red;
+ 
   width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+  
+}
+.person{
+  text-align: center;
+  max-width: 250px;
 }
 
 .wave .shape-fill {
@@ -310,6 +319,7 @@ hr {
   align-items: center;
   gap: 20px;
   color: white;
+  text-align: center;
 }
 
 .join-but-rev {
