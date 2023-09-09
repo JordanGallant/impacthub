@@ -425,17 +425,37 @@ margin-top: 10px;
 .p-right{
 width: 50%;
 border-left: 1px solid white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .list-1{
 display: flex;
-width: 25%;
+width:100%;
 flex-direction: column;
 gap: 10px;
 justify-content: center;
 align-items: center;
 border-right: solid 1px white;
 
+.t{
+  color: black;
+}
 
+h4{
+  font-family: "Unbounded", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+}
+.list-item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 
 }
 .li-but{
@@ -448,14 +468,11 @@ border-right: solid 1px white;
   color: white;
   border: 2px solid white;
   background-color: black;
-  cursor: pointer;
+  
 }
 
-.list2{
-width: 75%;
-display: flex;
-flex-direction: column;
-}
+
+
 
 
 @font-face {
