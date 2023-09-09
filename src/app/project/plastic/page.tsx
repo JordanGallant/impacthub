@@ -1,8 +1,13 @@
-import { FC } from "react";
-
-interface pageProps {}
-
-const page: FC<pageProps> = ({}) => {
-    return <div>page</div>
+const Plastic = () =>{
+    return (
+        <>
+        <div>
+            <h1>Replastic</h1>
+           <div className="problem"></div>
+           <h2>Problem</h2>
+        </div>
+        </>
+    )
 }
-export default page
+
+export default Plastic
